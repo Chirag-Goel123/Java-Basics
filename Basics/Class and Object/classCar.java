@@ -8,7 +8,7 @@ class Car
 
         public CarDesign()
         {
-            this(96);   // Calling a different from this constrcutor of same class.
+            this(96);   // Calling a different constructor from this constrcutor of same class.
             System.out.println("Creating object");
         }
         public CarDesign(int modelNo)
